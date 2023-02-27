@@ -111,6 +111,7 @@ body {
 }
 .main-wrapper h1 {
     font-family: 'Lora', sans-serif;
+    
 }
 
 
@@ -120,8 +121,8 @@ body {
     justify-content: space-between;
     flex-flow: row wrap;
     font-weight: 700;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    /* border-top: 2px solid grey;
+    border-bottom: 2px solid grey; */
 }
 .wrapper p {
     font-weight: 400;
