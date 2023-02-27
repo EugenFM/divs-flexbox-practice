@@ -106,13 +106,25 @@ body {
     padding: 2em;
     font-size: 1.25em;
     height: 100%;
+    background: #000;
+    color: #fff;
 }
+.main-wrapper h1 {
+    font-family: 'Lora', sans-serif;
+}
+
 
 .wrapper {
     /*add display:flex and set justify-content to space-between*/
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
     font-weight: 700;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.wrapper p {
+    font-weight: 400;
 }
 
 .div-1,
@@ -124,10 +136,18 @@ body {
     align-items: center;
     color: #fff;
     line-height: 1.5em;
-    font-size: 1.6em;
-    background-color: #f16059;
-    height: 300px;
+    font-size: .875em;
+    background-color: #000;
+    /* height: 300px; */
+    height: auto;
     width: 30%;
+
+}
+.div-2 {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0 25px;
+    
 }
 
 
